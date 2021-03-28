@@ -1,5 +1,6 @@
 package aair2450mv.repository;
 
+import aair2450mv.validators.PaymentValidator;
 import javafx.collections.ObservableList;
 import aair2450mv.model.MenuDataModel;
 import aair2450mv.model.Payment;
@@ -50,8 +51,10 @@ public class PaymentRepository {
     }
 
     public void add(Payment payment){
-        paymentList.add(payment);
-        writeAll();
+        if (PaymentValidator.validate(payment)==0) {
+            paymentList.add(payment);
+            writeAll();
+        }
     }
 
     public List<Payment> getAll(){
@@ -71,6 +74,7 @@ public class PaymentRepository {
                 bw.newLine();
             }
             bw.close();
+            System.out.println("____________");
         } catch (IOException e) {
             e.printStackTrace();
         }
