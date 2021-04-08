@@ -21,7 +21,7 @@ class PizzaServiceTest {
     @BeforeAll
     public static void classSetup(){
         menuRepository = new MenuRepository();
-        paymentRepository = new PaymentRepository();
+        paymentRepository = new PaymentRepository("data/payments.txt");
         service = new PizzaService(menuRepository, paymentRepository);
         type = PaymentType.Cash;
     }

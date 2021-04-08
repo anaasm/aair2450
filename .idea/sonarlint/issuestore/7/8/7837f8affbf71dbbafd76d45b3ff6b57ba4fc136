@@ -1,0 +1,18 @@
+
+L
+java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:
+L
+java:S1128"6Remove this unused import 'javafx.scene.shape.Circle'.(ÃÁò«
+T
+java:S1128">Remove this unused import 'javafx.scene.paint.Color.DARKBLUE'.(”ƒğ±
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ã¾»ªøÿÿÿÿ
+P
+java:S1128"5Remove this unused import 'javafx.scene.layout.VBox'.(íÆáÂùÿÿÿÿ
+T
+java:S1128"9Remove this unused import 'javafx.scene.text.FontWeight'.(„­Şşÿÿÿÿ
+N
+java:S1128"3Remove this unused import 'javafx.fxml.FXMLLoader'.(À‡ô³úÿÿÿÿ
+K
+java:S1128"5Remove this unused import 'javafx.stage.PopupWindow'.(˜ÏŸ
+K
+java:S1128"5Remove this unused import 'javafx.scene.paint.Color'.(Ïî£à

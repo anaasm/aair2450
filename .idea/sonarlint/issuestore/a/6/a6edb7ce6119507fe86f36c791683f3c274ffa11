@@ -1,0 +1,10 @@
+
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÎ§˜þÿÿÿÿ
+g
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(ÍÎ§˜þÿÿÿÿ
+C
+java:S1604"(Make this anonymous inner class a lambda(ùë²¥þÿÿÿÿ
+V	java:S125#"<This block of commented-out lines of code should be removed.(žŠ‘Ÿûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ¾”àþÿÿÿÿ
+J
+java:S3655""5Call "result.isPresent()" before accessing the value.(¼ý¦7
