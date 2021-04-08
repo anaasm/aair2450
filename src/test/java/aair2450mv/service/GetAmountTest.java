@@ -30,10 +30,7 @@ class GetAmountTest {
 
     @AfterAll
     public static void clearFile() throws IOException {
-        File file= new File("data/testAmount.txt");
-        PrintWriter writer = new PrintWriter(file);
-        writer.print("");
-        writer.close();
+       paymentRepository.deleteAllPayments();
     }
 
     @Order(1)
