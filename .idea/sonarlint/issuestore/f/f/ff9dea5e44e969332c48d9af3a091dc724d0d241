@@ -1,14 +1,14 @@
 
 i
-java:S2095F"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ù»ı8‡‰òå‡/
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àˆ™ñ
-Y
-java:S1128">Remove this unused import 'javafx.collections.ObservableList'.(ÄÜ€éüÿÿÿÿ
+java:S2095G"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ù»ı8‡‰òå‡/
 i
-java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãÈˆ¦8‡‰òå‡/
-Z	java:S106M"9Replace this use of System.out or System.err by a logger.(¸Îùïûÿÿÿÿ8‡‰òå‡/
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãÈˆ¦8‡‰òå‡/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àˆ™ñ
 a
-java:S2147%"DCombine this catch with the one at line 35, which has the same body.(ï­£Ä8‡‰òå‡/
-Z	java:S106H"9Replace this use of System.out or System.err by a logger.(Ñ£±Ôúÿÿÿÿ8‡‰òå‡/
+java:S2147&"DCombine this catch with the one at line 36, which has the same body.(ï­£Ä8‡‰òå‡/
 ]
 java:S1128";Remove this unused import 'aair2450mv.model.MenuDataModel'.(ÒÚ¤úÿÿÿÿ8‡‰òå‡/
+Y
+java:S1128">Remove this unused import 'javafx.collections.ObservableList'.(ÄÜ€éüÿÿÿÿ
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(¸Îùïûÿÿÿÿ8‡‰òå‡/
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(Ñ£±Ôúÿÿÿÿ8‡‰òå‡/

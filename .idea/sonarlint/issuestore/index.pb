@@ -33,3 +33,5 @@ f
 6src/test/java/aair2450mv/service/PizzaServiceTest.java,6\9\6943128e030efd48e89a38ebfd82390b0574a764
 i
 9src/main/java/aair2450mv/validators/PaymentValidator.java,6\4\64a9f7267deac17ec05da807c1ad51543da013db
+c
+3src/test/java/aair2450mv/service/GetAmountTest.java,c\0\c0707acdaa4aaaae746c1508d6ce8b01b9039aa3
