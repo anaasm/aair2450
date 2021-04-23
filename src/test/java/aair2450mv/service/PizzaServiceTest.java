@@ -87,8 +87,8 @@ class PizzaServiceTest {
     @DisplayName("invalid tableNo and invalid amount")
     @Order(4)
     @ParameterizedTest
-    @ValueSource(ints = {0,9})
-    void nonvalid_BVA(int nrMasa) {
+    //@ValueSource(ints = {0,9})
+    void nonvalid_BVA() {
         //arrange
         double suma = -1;
         PaymentType type= PaymentType.Cash;
@@ -96,6 +96,7 @@ class PizzaServiceTest {
 
         //act
         //Payment p = new Payment(nrMasa, type, suma);
+        int nrMasa = 0;
         service.addPayment(nrMasa, type, suma);
 
         //assert
@@ -104,17 +105,18 @@ class PizzaServiceTest {
 
 
     @ParameterizedTest
-    @ValueSource(ints = {-5,200})
+    //@ValueSource(ints = {-5,200})
     @Tag("ECP")
     @DisplayName("invalid tableNo and invalid amount")
     @Order(2)
-    void nonvalid_ECP(int nrMasa) {
+    void nonvalid_ECP() {
         //arrange
         double suma = -50;
         int nrPayment = service.getPayments().size();
 
         //act
         //Payment p = new Payment(nrMasa, type, suma);
+        int nrMasa=-5;
         service.addPayment(nrMasa, type, suma);
 
         //assert
