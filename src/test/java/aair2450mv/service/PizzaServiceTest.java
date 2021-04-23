@@ -57,7 +57,8 @@ class PizzaServiceTest {
     @Tag("BVA")
     @DisplayName("valid data")
     @Order(3)
-    @ParameterizedTest
+    @Test
+    //@ParameterizedTest
     //@ValueSource(ints = {1,2,7,8})
     void valid_BVA() {
         //arrange
@@ -86,7 +87,8 @@ class PizzaServiceTest {
     @Tag("BVA")
     @DisplayName("invalid tableNo and invalid amount")
     @Order(4)
-    @ParameterizedTest
+    @Test
+    //@ParameterizedTest
     //@ValueSource(ints = {0,9})
     void nonvalid_BVA() {
         //arrange
@@ -104,11 +106,12 @@ class PizzaServiceTest {
     }
 
 
-    @ParameterizedTest
+    //@ParameterizedTest
     //@ValueSource(ints = {-5,200})
     @Tag("ECP")
     @DisplayName("invalid tableNo and invalid amount")
     @Order(2)
+    @Test
     void nonvalid_ECP() {
         //arrange
         double suma = -50;
