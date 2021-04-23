@@ -58,8 +58,8 @@ class PizzaServiceTest {
     @DisplayName("valid data")
     @Order(3)
     @ParameterizedTest
-    @ValueSource(ints = {1,2,7,8})
-    void valid_BVA(int nrMasa) {
+    //@ValueSource(ints = {1,2,7,8})
+    void valid_BVA() {
         //arrange
         double suma = 1;
         PaymentType type= PaymentType.Cash;
@@ -68,6 +68,7 @@ class PizzaServiceTest {
 
         //act
         //Payment p = new Payment(nrMasa, type, suma);
+        int nrMasa = 2;
         service.addPayment(nrMasa, type, suma);
 
         //assert
