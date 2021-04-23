@@ -22,7 +22,7 @@ public class PizzaService {
 
     public List<Payment> getPayments(){return payRepo.getAll(); }
 
-    public void addPayment(int table, PaymentType type, double amount){
+    public void addPayment(int table,PaymentType type, Double amount){
         Payment payment= new Payment(table, type, amount);
         payRepo.add(payment);
     }
@@ -34,7 +34,7 @@ public class PizzaService {
         if (l.size()==0)
             return total;
         for (int i=0;i<l.size();i++){
-            if (type.equals(l.get(i).getType()))
+            if (l.get(i).getType().equals(type))
                 total+=l.get(i).getAmount();
             if(l.size()%2 == 0){
                 count++;

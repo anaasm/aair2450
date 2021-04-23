@@ -39,6 +39,7 @@ class PizzaServiceTest {
         int nrPayment = service.getPayments().size();
 
         //act
+        //Payment p = new Payment(nrMasa, type, suma);
         service.addPayment(nrMasa, type, suma);
 
         //assert
@@ -66,6 +67,7 @@ class PizzaServiceTest {
         Payment lastPayment;
 
         //act
+        //Payment p = new Payment(nrMasa, type, suma);
         service.addPayment(nrMasa, type, suma);
 
         //assert
@@ -92,6 +94,7 @@ class PizzaServiceTest {
         int nrPayment = service.getPayments().size();
 
         //act
+        //Payment p = new Payment(nrMasa, type, suma);
         service.addPayment(nrMasa, type, suma);
 
         //assert
@@ -110,6 +113,7 @@ class PizzaServiceTest {
         int nrPayment = service.getPayments().size();
 
         //act
+        //Payment p = new Payment(nrMasa, type, suma);
         service.addPayment(nrMasa, type, suma);
 
         //assert
