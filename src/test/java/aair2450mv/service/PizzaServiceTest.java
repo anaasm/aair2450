@@ -26,8 +26,8 @@ class PizzaServiceTest {
         type = PaymentType.Cash;
     }
 
-    @DisplayName("valid data")
-    @Tag("ECP")
+    //@DisplayName("valid data")
+   // @Tag("ECP")
     @Order(1)
     @Test
     void valid_ECP() {
@@ -54,10 +54,11 @@ class PizzaServiceTest {
         }
     }
 
-    @Tag("BVA")
-    @DisplayName("valid data")
+    //@Tag("BVA")
+    //@DisplayName("valid data")
     @Order(3)
-    @ParameterizedTest
+    @Test
+    //@ParameterizedTest
     //@ValueSource(ints = {1,2,7,8})
     void valid_BVA() {
         //arrange
@@ -83,10 +84,11 @@ class PizzaServiceTest {
         }
     }
 
-    @Tag("BVA")
-    @DisplayName("invalid tableNo and invalid amount")
+    //@Tag("BVA")
+    //@DisplayName("invalid tableNo and invalid amount")
     @Order(4)
-    @ParameterizedTest
+    @Test
+    //@ParameterizedTest
     //@ValueSource(ints = {0,9})
     void nonvalid_BVA() {
         //arrange
@@ -104,11 +106,12 @@ class PizzaServiceTest {
     }
 
 
-    @ParameterizedTest
+    //@ParameterizedTest
     //@ValueSource(ints = {-5,200})
-    @Tag("ECP")
-    @DisplayName("invalid tableNo and invalid amount")
+    //@Tag("ECP")
+    //@DisplayName("invalid tableNo and invalid amount")
     @Order(2)
+    @Test
     void nonvalid_ECP() {
         //arrange
         double suma = -50;
