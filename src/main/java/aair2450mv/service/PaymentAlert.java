@@ -1,5 +1,6 @@
 package aair2450mv.service;
 
+import aair2450mv.model.Payment;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import aair2450mv.model.PaymentType;
@@ -45,9 +46,12 @@ public class PaymentAlert implements PaymentOperation {
         Optional<ButtonType> result = paymentAlert.showAndWait();
         if (result.get() == cardPayment) {
             cardPayment();
+            //Payment payment = new Payment(tableNumber, PaymentType.Card,totalAmount);
             service.addPayment(tableNumber, PaymentType.Card,totalAmount);
         } else if (result.get() == cashPayment) {
             cashPayment();
+            //Payment payment = new Payment(tableNumber, PaymentType.Cash,totalAmount);
+            //service.addPayment(payment);
             service.addPayment(tableNumber, PaymentType.Cash,totalAmount);
         } else if (result.get() == cancel) {
              cancelPayment();

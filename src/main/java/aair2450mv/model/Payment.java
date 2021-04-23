@@ -1,9 +1,7 @@
 package aair2450mv.model;
 
 
-
 public class Payment {
-
     private int tableNumber;
     private PaymentType type;
     private double amount;
