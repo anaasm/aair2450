@@ -14,7 +14,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
 
-class Repo_Service_test {
+class RepoServiceTest {
     public static PaymentRepository paymentRepository;
     public static MenuRepository menuRepository;
     public static PizzaService service;
@@ -63,5 +63,4 @@ class Repo_Service_test {
         assertEquals(service.getTotalAmount(PaymentType.Cash),30.0);
         assertEquals(service.getTotalAmount(PaymentType.Card),20.0);
     }
-
 }

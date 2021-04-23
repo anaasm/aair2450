@@ -13,7 +13,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
 
-class Repo_Service_Entity_test {
+class RepoServiceEntityTest {
     public static PaymentRepository paymentRepository;
     public static MenuRepository menuRepository;
     public static PizzaService service;
